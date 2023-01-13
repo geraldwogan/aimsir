@@ -1,0 +1,7 @@
+{
+  "name": "aimsir",
+  "version": "1.0.0",
+  "bin": {
+    "aimsir": "index.js"
+  }
+}
