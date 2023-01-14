@@ -3,7 +3,9 @@
 console.log("Attempting to print weather")
 
 const axios = require('axios');
-const API_KEY = '4b0eedd7b672b4cd45932b9fdc2c4a1c';
+require('dotenv').config();
+
+const API_KEY = process.env.API_KEY;
 const CITY = 'Dublin';
 const UNITS = 'metric';
 const DAYS = 5;
